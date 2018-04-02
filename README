@@ -1,0 +1,23 @@
+/*
+ * CSCE 4600
+ * Program 2 : Isaias Delgado , Juan Moreira
+ * Due: May 3, 2016
+ * FILE: README
+ */
+
+ The following program can be compiled using the following command:
+
+ 	make
+
+ It can be run using the following command:
+
+ 	make run
+
+ The program will then show a list of options for the user to choose from.
+ In order to choose an option, the user must enter the letter given for
+ the command: 'A' for malloc()/free(), 'B' for my_malloc()/my_free(),
+ or 'X' to exit, then press ENTER to run the command. After the user chooses
+ an option, the program will run with the functions associated with the
+ command. If the user wants to change the size of the limit to hold the 
+ memory slots for the processes, they can change the global value on
+ Line # 12 of "process_gen.cpp".
